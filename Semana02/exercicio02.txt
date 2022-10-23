@@ -1,0 +1,32 @@
+2- 
+A) As 4 etapas do processo de compilação são:
+
+Preprocessing: 
+
+	Nesta primeira etapa, o código fonte passa por uma análise de erros de sintaxe, adiciona bibliotecas que estão incluidas 
+através de "#include" e ignora comentários no código.
+
+	
+
+Compilation Proper: 
+
+	Nessa etapa, o código fonte é interpretado e com base nisso gera um código assembly, (mais próximo da máquina), que pode 
+ser destinada ao processador de destino, porém , ainda pode ser interpretada e lida por humanos.	
+
+Assembly:
+
+	Tendo em mãos o código assembly , o assembler o "traduz" , transformando-o em um código de baixo nível (binário, zeros e uns)
+de modo que a máquina consiga compreender.
+
+Linking: 
+
+	Essa é a última etapa do compilador, aqui o compilador une todos os códigos objeto resultante da etapa anterior em um único módulo.
+Onde as bibliotecas, já compiladas, são adicionadas em nosso código binário, permitindo a criação de um arquivo binário executável.
+
+B)
+-static: Linka bibliotecas estáticas
+-g: Produza informações de depuração no formato nativo do sistema operacional 
+-pedantic: Emitir todos os avisos exigidos pela estrita ISO C e ISO C++; rejeitar todos os programas que usam extensões proibidas
+-Wall: Isso habilita todos os avisos sobre construções que alguns usuários consideram questionáveis ​​e que são fáceis de evitar
+-Os: otimiza o tamanho do código 
+-O3: ativa uma série de otimizações
