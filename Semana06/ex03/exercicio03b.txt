@@ -1,0 +1,9 @@
+b.1) qual o limite de bytes a serem enviados por pacotes TCP e UDP?
+RESPOSTA: O pacote TCP tem tamanho máximo de 64kb, mas normalmente utiliza-se 1500 bytes. Já o protocolo UDP suporta no máximo 65507 bytes.
+
+b.2) como um arquivo grande pode ser transmitido via internet?
+RESPOSTA: Um arquivo grande pode ser transmitido pelo protocolo TCP/IP em pedaços (ou 'chunks'). Estipula-se um tamanho de buffer do qual cliente e servidor estão cientes, e o cliente divide o pacote em chunks do tamanho do buffer, e envia-os sequencialmente ao servidor.
+
+b.3) qual a diferença entre as implementações TCP e UDP para esse problema?
+RESPOSTA: O protocolo TCP é desenvolvido para que não haja perda de dados entre cliente e servidor. Dessa forma, garante-se que o arquivo recebido em uma ponta será idêntico ao enviado pela outra. Já o protocolo UDP permite perdas, dessa forma parte do arquivo pode ser corrompida no caminho.
+No caso do envio de um script, por exemplo, é inadmissível que qualquer byte seja perdido pois isto pode prejudicar totalmente seu funcionamento. Por outro lado, no caso de envio de frames de um vídeo sendo reproduzido a 60fps, por exemplo, é aceitável que um frame ou outro seja perdido no caminho em troca de maior velocidade de envio.
