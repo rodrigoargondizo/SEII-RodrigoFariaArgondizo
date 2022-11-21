@@ -1,0 +1,41 @@
+# Resumo do Vídeo "Basics of UI, UX, and Product Design | What is Product Design?"
+
+## Introdução
+- Diferenciação entre UI e UX novamente;
+- Roteiro: Conceitos de UI, UX, Product Design, seus respectivos profissionais e as diferenças entre os três;
+
+## What is UI?
+- UI = User Interface;
+- Interface entre usuário e aplicação - botões, imagens, sons...
+
+## What is UX?
+- UX = User Experience;
+- Conceito mais abstrato - refere-se à satisfação do cliente;
+- Funções, facilidade de uso...
+
+## What is Product Design?
+- Abrange o processo de criação de ponta a ponta;
+- Pesquisa, desenvolvimento e estudo dos problemas do usuário;
+- Conecta as reais necessidades à forma de uso do produto.
+
+## Who is a UI Designer?
+- Desenha os elementos visuais da aplicação;
+- Preocupa-se com o apelo visual da interface;
+- Leva em consideração a facilidade de navegação e interação com o produto;
+- Precisa conhecer bem o comportamento humano;
+- Missão: Fazer com que a experiência pareça natural para o usuário.
+
+## Who is a UX Designer?
+- Preocupa-se com a *satisfação* do cliente;
+- Garante que o produto é acessível e significante ao usuário;
+- Projeta o comportamento geral da interface e a conexão entre seus elementos;
+- Constante interface entre desenvolvimento e feedback dos clientes.
+
+## Who is a Product Designer?
+- Toma conta do desenvolvimento geral do produto, de ponta a ponta;
+- Acompanha a qualidade da experiência do usuário ao longo do tempo, alterando-a se necessário.
+
+## UI x UX x Product Design
+- UI é subconjunto de UX;
+- UX - como funciona, UI - como aparenta;
+- UX é subconjunto de Product Design - O segundo envolve também aspectos de negócios do produto, não somente o usuário;

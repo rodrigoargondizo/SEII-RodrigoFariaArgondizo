@@ -1,0 +1,11 @@
+# Resumo do Vídeo "O que é UX e UI? - Semana do Design"
+
+UI - User Interface = "Garrafa de vidro"
+UX - User Experience = "Garrafa de plástico"
+
+UX - Interseção entre necessidades dos negócios, usuários e viabilidade do produto.
+UI - Como os usuários vão ver/utilizar o produto - cores, tipografia...
+
+Sem usuário não tem UX!
+
+UI e UX **precisam** andar juntos.
